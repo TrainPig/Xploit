@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+</script><head>
+<meta content="width=854, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="icon" href="http://appstore.wiiubru.com/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://appstore.wiiubru.com/icon.ico" type="image/x-icon">
+<link rel="stylesheet" href="go-Dateien/font-awesome.css">
+<link rel="stylesheet" href="go-Dateien/main.css">
+
+<script src="go-Dateien/webfont.js"></script><style>@media print {#ghostery-purple-box {display:none !important}}</style>
+<link rel="stylesheet" href="go-Dateien/css.css" media="all">
+
+</head>
+<body>
+      <!-- navbar -->
+      
+      <!-- / navbar -->
+
+<br>
+<div class="container" style="text-align: center; color: #efefef; font-size: 24px;">
+<br>
+<i class="fa fa-floppy-o" aria-hidden="true"></i>Sei sicher, dass sich die SD in der WiiU befindet und sich alle Dateien auf der SD befinden.<br>
+</ul>Solltest du noch nicht die benötigten Dateien auf der sd haben, lade sie dir herunter: <a href="http://huhenhide.github.io/Xploit/download.htm"><b>download
+
+<ul class="appGrid">
+
+<li class="appGrid__item"><a href="http://huhenhide.github.io/Xploit/551.htm" class="card card--app"><img src="go-Dateien/icon_002.png" class="app__image"> <div class="card__head">Homebrew Launcher (5.5.1)</div> <div class="card__body"><div class="app__desc">Homebrew für 5.5.1</div><div class="app__author">Dimok</div></div></a></li>
+
+<li class="appGrid__item"><a href="http://huhenhide.github.io/Xploit/5.5.2.htm" class="card card--app"><img src="go-Dateien/icon_002.png" class="app__image"> <div class="card__head">Homebrew Launcher (5.5.2)</div> <div class="card__body"><div class="app__desc">Homebrew für 5.5.2</div> <div class="app__author">Dimok,Flump</div></div></a></li>
+<br><br>
+
+</ul>Haxchi benötigt ein gekaufes ds Spiel. Die Liste findest du: <a href="http://huhenhide.github.io/Xploit/HaxchiTitles.htm"><b>hier</b></a>.<br>
+
+<br><br>
+
+
+<style>
+.appGrid__item { width: 250px; text-align: left;}
+/**.app__image { width: 250px; height: auto; } **/
+.appGrid, .container { width: 750px; margin: 0 auto; }
+</style>
+
+
+
+<br><br><br>
+<div align="center"><script async="" src="go-Dateien/adsbygoogle.js"></script>
+<!-- Wiiubru2 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8148658375496745" data-ad-slot="1135708500"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<br>
+<div align="center">
+
+<!-- wiiubru -->
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><div class="container" style="text-align: center; color: #efefef; font-size: 24px;">
+<br>
+<i aria-hidden="true"></i>
+
+
+
+<br><br>
+
+</div>
+<br><br><br>
+<div style="text-align: center; background: #4b4c62; color: white;"></div>
+<br>
+</div>
+
+
+</body></html>
